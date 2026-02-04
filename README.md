@@ -25,8 +25,35 @@
 
 ---
 
+
+🛠️ 설치 및 실행 방법
+이 프로젝트는 Poetry를 사용하여 가상 환경과 라이브러리를 관리합니다.
+
+1. 의존성 설치
+터미널에서 프로젝트 루트 폴더(pyproject.toml이 있는 곳)로 이동한 후 아래 명령어를 입력합니다.
+
+poetry install
+
+2. 앱 실행
+설치가 완료되면 아래 명령어로 Streamlit 서버를 실행합니다.
+
+poetry run streamlit run src/my_first_project/streamlit_app.py
+
+
+
+
 ## 📂 프로젝트 구조
 본 프로젝트는 Python의 표준 패키지 구조인 `src` 레이아웃을 따릅니다.
+
+📊 기술 스택
+Language: Python 3.10+
+
+Framework: Streamlit
+
+Environment: Poetry
+
+Data Structures: Dictionary, Set, Class Inheritance
+
 
 ```text
 .
@@ -37,24 +64,5 @@
         ├── streamlit_app.py    # Streamlit 웹 대시보드 (UI)
         ├── main.py             # 추천 로직 및 학생 객체 관리 (Core)
         └── data.py             # 전공 과목 및 커리큘럼 데이터 (Data)
-🛠️ 설치 및 실행 방법
-이 프로젝트는 Poetry를 사용하여 가상 환경과 라이브러리를 관리합니다.
 
-1. 의존성 설치
-터미널에서 프로젝트 루트 폴더(pyproject.toml이 있는 곳)로 이동한 후 아래 명령어를 입력합니다.
 
-Bash
-poetry install
-2. 앱 실행
-설치가 완료되면 아래 명령어로 Streamlit 서버를 실행합니다.
-
-Bash
-poetry run streamlit run src/my_first_project/streamlit_app.py
-📊 기술 스택
-Language: Python 3.10+
-
-Framework: Streamlit
-
-Environment: Poetry
-
-Data Structures: Dictionary, Set, Class Inheritance
