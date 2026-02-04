@@ -24,17 +24,11 @@ Plaintext
 
 .
 ├── pyproject.toml              # Poetry 설정 및 의존성 관리
-
 ├── poetry.lock                 # 패키지 버전 잠금 파일
-
 └── src
-
     └── my_first_project        # 메인 패키지
-    
         ├── streamlit_app.py    # Streamlit 웹 대시보드 (UI)
-        
         ├── main.py             # 추천 로직 및 학생 객체 관리 (Core)
-        
         └── data.py             # 전공 과목 및 커리큘럼 데이터 (Data)
 🛠️ 설치 및 실행 방법
 이 프로젝트는 Poetry를 사용하여 가상 환경과 라이브러리를 관리합니다.
